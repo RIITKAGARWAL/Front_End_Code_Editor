@@ -1,0 +1,45 @@
+*{
+  color: rgba(59, 44, 221, 0.75);
+}
+
+
+.code textarea{
+  border: 3px solid black;
+  padding : 10px , 20px;
+  display: block;
+  max-width: 100%;
+  width: 95%;
+
+}
+.code {
+  flex: 1;
+  padding-top: 4px;
+}
+
+h1{
+  color: rgb(50, 99, 140);
+  font-size: 3rem; 
+}
+.parent{
+  display: flex;
+  min-height: 90vh;
+  max-height: 100vh;
+}
+
+
+.codingSection{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 5px dashed skyblue;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  padding: 4px;
+}
+
+
+.display{
+  border: 5px groove rgb(10, 100, 164);
+  width: 70%;
+  padding: 5%;
+}
